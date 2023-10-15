@@ -19,7 +19,9 @@
 import { isFeatureEnabled, Preset, FeatureFlag } from '@superset-ui/core';
 import CalendarChartPlugin from '@superset-ui/legacy-plugin-chart-calendar';
 import ChordChartPlugin from '@superset-ui/legacy-plugin-chart-chord';
+
 import CountryMapChartPlugin from '@superset-ui/legacy-plugin-chart-country-map';
+
 import EventFlowChartPlugin from '@superset-ui/legacy-plugin-chart-event-flow';
 import HeatmapChartPlugin from '@superset-ui/legacy-plugin-chart-heatmap';
 import HistogramChartPlugin from '@superset-ui/legacy-plugin-chart-histogram';
@@ -34,6 +36,9 @@ import SunburstChartPlugin from '@superset-ui/legacy-plugin-chart-sunburst';
 import TableChartPlugin from '@superset-ui/plugin-chart-table';
 import { WordCloudChartPlugin } from '@superset-ui/plugin-chart-word-cloud';
 import WorldMapChartPlugin from '@superset-ui/legacy-plugin-chart-world-map';
+
+import { SupersetPluginChartHelloWorld } from 'superset-plugin-chart-hello-world';
+
 import {
   AreaChartPlugin,
   BarChartPlugin,
@@ -112,6 +117,10 @@ export default class MainPreset extends Preset {
         new EchartsGaugeChartPlugin().configure({ key: 'gauge_chart' }),
         new EchartsGraphChartPlugin().configure({ key: 'graph_chart' }),
         new EchartsRadarChartPlugin().configure({ key: 'radar' }),
+
+        new SupersetPluginChartHelloWorld().configure({ key: 'ext-hello-world' }),
+        
+
         new EchartsMixedTimeseriesChartPlugin().configure({
           key: 'mixed_timeseries',
         }),
