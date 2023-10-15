@@ -17,6 +17,26 @@
  * under the License.
  */
 
+import albania from './countries/albania.geojson';
+import algeria from './countries/algeria.geojson';
+import angola from './countries/angola.geojson';
+import armenia from './countries/armenia.geojson';
+import azerbaijan from './countries/azerbaijan.geojson';
+import bangladesh from './countries/bangladesh.geojson';
+import belarus from './countries/belarus.geojson';
+import cambodia from './countries/cambodia.geojson';
+import cameroon from './countries/cameroon.geojson';
+import hungary from './countries/hungary.geojson';
+import iraq from './countries/iraq.geojson';
+import ireland from './countries/ireland.geojson';
+import israel from './countries/israel.geojson';
+import somalia from './countries/somalia.geojson';
+import south_africa from './countries/south africa.geojson';
+import south_korea from './countries/south korea.geojson';
+import tunisia from './countries/tunisia.geojson';
+import zimbabwe from './countries/zimbabwe.geojson';
+
+
 import austria from './countries/austria.geojson';
 import argentina from './countries/argentina.geojson';
 import australia from './countries/australia.geojson';
@@ -110,6 +130,25 @@ import venezuela from './countries/venezuela.geojson';
 import vietnam from './countries/vietnam.geojson';
 
 export const countries = {
+  albania,
+  algeria,
+  angola,
+  armenia,
+  azerbaijan,
+  bangladesh,
+  belarus,
+  cambodia,
+  cameroon,
+  hungary,
+  iraq,
+  ireland,
+  israel,
+  somalia,
+  south_africa,
+  south_korea,
+  tunisia,
+  zimbabwe,
+  
   austria,
   argentina,
   australia,
